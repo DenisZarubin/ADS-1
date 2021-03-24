@@ -12,7 +12,7 @@ int cbinsearch(int *arr, int size, int value) {
   else if (arr[middle] > value) {
    right = middle;
   }
-  else {
+       else {
    left = middle+1;
   }
  }
